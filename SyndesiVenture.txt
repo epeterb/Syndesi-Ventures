@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNDESI VENTURES</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+        body { font-family: 'JetBrains Mono', monospace; }
+        .blink { animation: blinker 1s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+    </style>
+</head>
+<body class="bg-black text-gray-300 antialiased selection:bg-green-500 selection:text-black">
+
+    <nav class="flex justify-between items-center p-6 border-b border-gray-800">
+        <div class="text-xl font-bold text-white tracking-widest">SYNDESI<span class="text-green-500">.AI</span></div>
+        <a href="mailto:hello@syndesi.ai" class="text-sm hover:text-green-500 transition-colors">[ INIT_CONTACT ]</a>
+    </nav>
+
+    <header class="min-h-[80vh] flex flex-col justify-center px-6 max-w-4xl mx-auto">
+        <p class="text-green-500 mb-4 text-sm">>> SYSTEM STATUS: OPERATIONAL</p>
+        <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight mb-8">
+            WE BUILD THE MACHINES<br>
+            THAT BUILD THE BUSINESS.
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 max-w-2xl leading-relaxed mb-10">
+            Syndesi is an AI Venture Studio. We don't just sell technology. We build autonomous revenue engines for ourselves—and select partners.
+        </p>
+        <div class="flex gap-4">
+            <a href="#modules" class="border border-green-500 text-green-500 px-6 py-3 hover:bg-green-500 hover:text-black transition-all duration-300">
+                VIEW MODULES
+            </a>
+            <a href="mailto:hello@syndesi.ai" class="border border-gray-600 text-gray-400 px-6 py-3 hover:border-white hover:text-white transition-all duration-300">
+                REQUEST BLUEPRINT
+            </a>
+        </div>
+    </header>
+
+    <div class="border-y border-gray-800 py-4 overflow-hidden bg-gray-900/50">
+        <div class="flex justify-around text-xs md:text-sm text-gray-500 uppercase tracking-widest">
+            <span>// Agents Deployed: 142</span>
+            <span>// Signals Processed: 1.2M+</span>
+            <span>// Revenue Generated: AUTOMATED</span>
+        </div>
+    </div>
+
+    <section id="modules" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="mb-12">
+            <h2 class="text-3xl text-white mb-2">PROPRIETARY MODULES</h2>
+            <p class="text-gray-500">Our internal stack, available for deployment.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="border border-gray-800 p-8 hover:border-green-500/50 transition-all group bg-gray-900/20">
+                <div class="text-green-500 text-xs mb-4">module_01: INTELLIGENCE</div>
+                <h3 class="text-2xl text-white font-bold mb-2 group-hover:text-green-400">The Sensor Array</h3>
+                <p class="text-sm text-gray-400 mb-6">Built on LocalAnswer.io & Custom Scrapers.</p>
+                <p class="text-gray-300 mb-4">Real-time market surveillance. We identify leads on Reddit, X, and LinkedIn the moment they signal intent.</p>
+            </div>
+
+            <div class="border border-gray-800 p-8 hover:border-green-500/50 transition-all group bg-gray-900/20">
+                <div class="text-green-500 text-xs mb-4">module_02: REASONING</div>
+                <h3 class="text-2xl text-white font-bold mb-2 group-hover:text-green-400">Partnermind Core</h3>
+                <p class="text-sm text-gray-400 mb-6">Strategic Logic Engine.</p>
+                <p class="text-gray-300 mb-4">Autonomous decision making for partnerships and deal flow. Analysis without bias.</p>
+            </div>
+
+            <div class="border border-gray-800 p-8 hover:border-green-500/50 transition-all group bg-gray-900/20">
+                <div class="text-green-500 text-xs mb-4">module_03: AMPLIFICATION</div>
+                <h3 class="text-2xl text-white font-bold mb-2 group-hover:text-green-400">Content Engine</h3>
+                <p class="text-sm text-gray-400 mb-6">Built on Brightside & Cringe.Agency.</p>
+                <p class="text-gray-300 mb-4">Automated authority. Newsletters, LinkedIn posts, and viral mechanics that run while you sleep.</p>
+            </div>
+
+            <div class="border border-gray-800 p-8 hover:border-green-500/50 transition-all group bg-gray-900/20">
+                <div class="text-green-500 text-xs mb-4">module_04: COMMERCE</div>
+                <h3 class="text-2xl text-white font-bold mb-2 group-hover:text-green-400">Transaction Layer</h3>
+                <p class="text-sm text-gray-400 mb-6">Built on PlantSwap & SFS.</p>
+                <p class="text-gray-300 mb-4">Marketplace logic and automated GTM sequences that convert traffic into revenue.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 border-t border-gray-800 text-center">
+        <h2 class="text-3xl md:text-5xl text-white font-bold mb-8">READY TO INSTALL?</h2>
+        <p class="text-gray-400 mb-10 max-w-xl mx-auto">We accept a limited number of "Build-to-Suit" partners per quarter. Apply to see if your business is compatible with our stack.</p>
+        <a href="mailto:hello@syndesi.ai" class="inline-block bg-green-500 text-black font-bold px-8 py-4 hover:bg-white hover:text-black transition-all">
+            INITIATE BLUEPRINT SESSION <span class="blink">_</span>
+        </a>
+    </section>
+
+    <footer class="p-6 border-t border-gray-800 text-center text-gray-600 text-xs">
+        &copy; 2024 SYNDESI VENTURES. ALL SYSTEMS NOMINAL.
+    </footer>
+
+</body>
+</html>
